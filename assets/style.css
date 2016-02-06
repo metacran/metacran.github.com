@@ -18,11 +18,11 @@ h1 {
 h2 {
   font-weight: bold;
   font-size: 20px;
-  color: #0084b4;
+  color: #cb3837;
 }
 
 a:link, a:visited {
-  color: #0084b4;
+  color: #cb3837;
   text-decoration: none;
 }
 
@@ -67,7 +67,7 @@ a:hover {
 
 #logo {
   width: 190px;
-  height: 64px;
+  height: 121px;
   margin: 15px 0 0 15px;
   background: url("logo.png");
   text-indent: -99999px;
@@ -92,7 +92,7 @@ div.header h1 {
 #num-repos, #num-members {
   font-size: 14px;
   font-weight: bold;
-  color: #0084b4;
+  color: #cb3837;
   line-height: 15px;
 }
 
@@ -182,7 +182,7 @@ li.repo h3 {
   height: 0;
   border-bottom: 50px solid transparent;
   border-left: 50px solid transparent;
-  border-right: 50px solid #0080b0;
+  border-right: 50px solid #cb3837;
   pointer-events: none;
 }
 
@@ -220,27 +220,6 @@ li.repo h3 {
 @-moz-keyframes large-swing { 0% { margin-top: 0px } 50% { margin-top: -40px } 100% { margin-top: 0px } }
 @-webkit-keyframes large-swing { 0% { margin-top: 0px } 50% { margin-top: -40px } 100% { margin-top: 0px } }
 @-ms-keyframes large-swing { 0% { margin-top: 0px } 50% { margin-top: -40px } 100% { margin-top: 0px } }
-
-.larry.size-smaller, .larry.size-small {
-  animation: small-swing 0.5s infinite ease-in-out;
-  -moz-animation: small-swing 0.5s infinite ease-in-out;
-  -webkit-animation: small-swing 0.5s infinite ease-in-out;
-  -ms-animation: small-swing 0.5s infinite ease-in-out;
-}
-
-.larry.size-medium, .larry.size-large {
-  animation: medium-swing 1.25s infinite ease-in-out;
-  -moz-animation: medium-swing 1.25s infinite ease-in-out;
-  -webkit-animation: medium-swing 1.25s infinite ease-in-out;
-  -ms-animation: medium-swing 1.25s infinite ease-in-out;
-}
-
-.larry.size-medium, .larry.size-fat {
-  animation: large-swing 1.5s infinite ease-in-out;
-  -moz-animation: large-swing 1.5s infinite ease-in-out;
-  -webkit-animation: large-swing 1.5s infinite ease-in-out;
-  -ms-animation: large-swing 1.5s infinite ease-in-out;
-}
 
 #flyzone {
   position: fixed;
