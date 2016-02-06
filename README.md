@@ -1,11 +1,10 @@
-twitter.github.com
-======
 
-The source code of http://twitter.github.com/
+## metacran.github.io
 
-LICENSE
-------------
+The source code of https://metacran.github.io/
 
-Copyright 2012 Twitter, Inc.
+## LICENSE
+
+Copyright 2012, 2016 Twitter, Inc., Gabor Csardi
 
 Licensed under the Apache License, Version 2.0: http://www.apache.org/licenses/LICENSE-2.0
